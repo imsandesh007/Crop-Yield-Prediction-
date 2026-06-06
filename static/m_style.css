@@ -1,0 +1,84 @@
+body {
+    background: linear-gradient(135deg, #4CAF50, #81C784);
+    min-height: 100vh;
+    font-family: 'Segoe UI', sans-serif;
+    padding: 20px 0;
+}
+
+h1 {
+    font-weight: bold;
+    margin-bottom: 30px;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.main-card {
+    background: rgba(255, 255, 255, 0.95);
+    border-radius: 25px;
+    padding: 35px;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+}
+
+.form-control {
+    border-radius: 12px;
+    padding: 10px;
+    transition: all 0.3s ease;
+}
+
+.form-control:focus {
+    border-color: #28a745;
+    box-shadow: 0 0 12px rgba(40, 167, 69, 0.4);
+}
+
+label {
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 6px;
+}
+
+table {
+    width: 100%;
+}
+
+td {
+    padding: 12px;
+    vertical-align: top;
+}
+
+.predict-btn {
+    width: 100%;
+    border-radius: 12px;
+    padding: 12px;
+    font-size: 18px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+.predict-btn:hover {
+    transform: translateY(-2px);
+}
+
+.prediction-box {
+    background: #fff3cd;
+    border-left: 6px solid #ffc107;
+    padding: 20px;
+    border-radius: 12px;
+}
+
+.error-box {
+    background: #f8d7da;
+    border-left: 6px solid #dc3545;
+    padding: 20px;
+    border-radius: 12px;
+}
+
+@media (max-width: 768px) {
+    td {
+        display: block;
+        width: 100%;
+    }
+
+    .main-card {
+        width: 95% !important;
+        padding: 20px;
+    }
+}
