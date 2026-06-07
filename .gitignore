@@ -1,0 +1,20 @@
+# create .gitignore
+echo "# Jupyter
+.ipynb_checkpoints/
+
+# Model files
+*.pkl
+*.h5
+*.model
+
+# Data files
+*.xlsx
+
+# Python
+__pycache__/
+*.pyc
+venv/
+.env
+
+# Bootstrap (use CDN instead)
+bootstrap-5.3.3-dist/" > .gitignore
